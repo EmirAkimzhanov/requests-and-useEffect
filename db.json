@@ -1,9 +1,64 @@
-[
+{
+  "cars": [
     {
       "id": 1,
       "carName": "Tesla Model S",
-      "imageUrl": "https://tse3.mm.bing.net/th?id=OIF.%2fAjGK1v6moPklp2MILBZAA&pid=Api&P=0&h=220",
+      "imageUrl": "https://example.com/tesla_model_s.jpg",
       "description": "The Tesla Model S is an all-electric luxury sedan known for its performance, range, and technology."
+    },
+    {
+      "id": 2,
+      "carName": "BMW 3 Series",
+      "imageUrl": "https://example.com/bmw_3_series.jpg",
+      "description": "The BMW 3 Series is a compact executive car known for its sporty handling, upscale interior, and wide range of engine options."
+    },
+    {
+      "id": 3,
+      "carName": "Toyota Camry",
+      "imageUrl": "https://example.com/toyota_camry.jpg",
+      "description": "The Toyota Camry is a mid-size sedan known for its reliability, fuel efficiency, and comfortable ride."
+    },
+    {
+      "id": 4,
+      "carName": "Honda Civic",
+      "imageUrl": "https://example.com/honda_civic.jpg",
+      "description": "The Honda Civic is a popular compact car known for its reliability, fuel efficiency, and practicality."
+    },
+    {
+      "id": 5,
+      "carName": "Ford Mustang",
+      "imageUrl": "https://example.com/ford_mustang.jpg",
+      "description": "The Ford Mustang is an iconic American muscle car known for its powerful engines and distinctive styling."
+    },
+    {
+      "id": 6,
+      "carName": "Mercedes-Benz E-Class",
+      "imageUrl": "https://example.com/mercedes_e_class.jpg",
+      "description": "The Mercedes-Benz E-Class is a luxury executive car known for its refined interior, advanced technology, and comfortable ride."
+    },
+    {
+      "id": 7,
+      "carName": "Audi A4",
+      "imageUrl": "https://example.com/audi_a4.jpg",
+      "description": "The Audi A4 is a compact executive car known for its high-quality interior, smooth ride, and advanced technology features."
+    },
+    {
+      "id": 8,
+      "carName": "Chevrolet Corvette",
+      "imageUrl": "https://example.com/chevrolet_corvette.jpg",
+      "description": "The Chevrolet Corvette is a legendary American sports car known for its performance, handling, and iconic design."
+    },
+    {
+      "id": 9,
+      "carName": "Volkswagen Golf",
+      "imageUrl": "https://example.com/volkswagen_golf.jpg",
+      "description": "The Volkswagen Golf is a versatile compact car known for its practicality, comfortable ride, and fun-to-drive nature."
+    },
+    {
+      "id": 10,
+      "carName": "Subaru Outback",
+      "imageUrl": "https://example.com/subaru_outback.jpg",
+      "description": "The Subaru Outback is a rugged crossover SUV known for its all-wheel-drive capability, spacious interior, and off-road prowess."
     }
   ]
-  
+}

@@ -11,7 +11,9 @@ export default function MediaCard() {
   const [data ,setData] = React.useState(null)
 
   const getCardsInfo=async()=>{
-    const res = await axios(`http://localhost:3000/0`);
+    const res = await axios.get('http://localhost:3000/cars');
+    const data = res.data; // массив объектов с информацией о машинах
+    console.log(data);
     setData(res.data)
   }
   
@@ -22,7 +24,7 @@ useEffect(()=>{
 // Hello aidar 
   return (
     <div style={{display:'flex' , flexWrap:'wrap' , justifyContent:'space-between'  , }}>
-
+{/* 
         <Card sx={{ maxWidth: 345 , marginBottom:'3%' }}>
           <CardMedia
             sx={{ height: 140 }}
@@ -41,7 +43,7 @@ useEffect(()=>{
             <Button size="small">Share</Button>
             <Button size="small">Learn More</Button>
           </CardActions>
-        </Card>
+        </Card> */}
 
 
 
