@@ -19,7 +19,7 @@ useEffect(()=>{
   getCardsInfo();
 },[])
 
-
+// Hello aidar 
   return (
     <div style={{display:'flex' , flexWrap:'wrap' , justifyContent:'space-between'  , }}>
 
