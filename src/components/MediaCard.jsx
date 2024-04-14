@@ -21,32 +21,36 @@ useEffect(()=>{
   getCardsInfo();
 },[])
 
-// Hello aidar 
-  return (
+
+
+
+return (
     <div style={{display:'flex' , flexWrap:'wrap' , justifyContent:'space-between'  , }}>
-{/* 
-        <Card sx={{ maxWidth: 345 , marginBottom:'3%' }}>
+      {
+        data?.map((item , index)=>{
+         return(
+          <Card key={index} sx={{ maxWidth: 345 , marginBottom:'3%' }}>
           <CardMedia
             sx={{ height: 140 }}
-            image={data?.imageUrl}
+            image={item?.imageUrl}
             title="green iguana"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              {data?.carName}
+              {item?.carName}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              {data?.description}
+              {item?.description}
             </Typography>
           </CardContent>
           <CardActions>
             <Button size="small">Share</Button>
             <Button size="small">Learn More</Button>
           </CardActions>
-        </Card> */}
-
-
-
+        </Card>
+         )
+        })
+      }
     </div>
   );
   

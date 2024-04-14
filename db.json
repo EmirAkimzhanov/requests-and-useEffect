@@ -3,19 +3,19 @@
     {
       "id": 1,
       "carName": "Tesla Model S",
-      "imageUrl": "https://example.com/tesla_model_s.jpg",
+      "imageUrl": "https://tse3.mm.bing.net/th?id=OIF.%2fAjGK1v6moPklp2MILBZAA&pid=Api&P=0&h=220",
       "description": "The Tesla Model S is an all-electric luxury sedan known for its performance, range, and technology."
     },
     {
       "id": 2,
       "carName": "BMW 3 Series",
-      "imageUrl": "https://example.com/bmw_3_series.jpg",
+      "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.oSgFsX4awt-faVgHuKrTiAHaEK&pid=Api&P=0&h=220",
       "description": "The BMW 3 Series is a compact executive car known for its sporty handling, upscale interior, and wide range of engine options."
     },
     {
       "id": 3,
       "carName": "Toyota Camry",
-      "imageUrl": "https://example.com/toyota_camry.jpg",
+      "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.zmVZnJB_zEoTauQcA5Cu8wHaDu&pid=Api&P=0&h=220",
       "description": "The Toyota Camry is a mid-size sedan known for its reliability, fuel efficiency, and comfortable ride."
     },
     {
