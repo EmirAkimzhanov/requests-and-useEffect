@@ -1,11 +1,13 @@
 import './App.css';
+import BasicAlerts from './components/BasicAlerts';
 import Goods from './components/Goods';
 
 function App() {
 
   return (
     <div>
-      <Goods/>
+      {/* <Goods/> */}
+      <BasicAlerts/>
     </div>
   );
 }
