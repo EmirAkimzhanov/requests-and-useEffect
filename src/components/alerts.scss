@@ -1,64 +1,42 @@
-.info{
+.alertContainer{
     width: 453px;
     height: 10%;
-    background-color:#F4F3FE ;
     border-radius: 4px;
-    border: 2px solid #7371EE;
     display: flex;
     justify-content: space-around;
     margin-bottom: 10px;
+}
+.noLabelAlertContainer{
+    width: 453px;
+    border-radius: 4px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.info{
+    background-color:#F4F3FE ;
+    border: 2px solid #7371EE;
 }
 .noLabelInfo{
-    width: 453px;
     background-color:#F4F3FE ;
-    border-radius: 4px;
     border: 2px solid #7371EE;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    margin-bottom: 10px;
 }
 .error{
-    width: 453px;
-    height: 10%;
     background-color:#FFF5F5 ;
-    border-radius: 4px;
     border: 2px solid #F93232;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
 }
 .noLabelError{
-    width: 453px;
     background-color:#FFF5F5 ;
-    border-radius: 4px;
     border: 2px solid #F93232;
-    display: flex;
-    align-items:center;
-
-    justify-content: space-around;
-    margin-bottom: 10px;
 }
 .success{
-    width: 453px;
-    height: 10%;
     background-color:#F1FFF4 ;
-    border-radius: 4px;
     border: 2px solid #439F6E;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
-
 }
 .noLabelSuccess{
-    width: 453px;
     background-color:#F1FFF4 ;
-    border-radius: 4px;
     border: 2px solid #439F6E;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    margin-bottom: 10px;
 }
 .ParentBox{
     margin-left: 4.3%;
@@ -89,3 +67,4 @@
     width: 15px;
 }
 // 6966ED F4F3FE
+
